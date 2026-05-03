@@ -27,14 +27,13 @@
 }
 
 .top-izquierdo {
-  grid-column: 1 / 2;
-  grid-row: 2 / 3;
-  background-color: #a0c8ff;
   
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: flex-start;
-  padding-top: 20px;
+  text-align: left;
+  padding: 15px;
 }
 
 .top-central {
