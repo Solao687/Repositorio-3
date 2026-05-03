@@ -1,15 +1,17 @@
-#layout-principal
-{
-  display: Grid;
-  grid-template-columns: 180px 1fx;
+#layout-principal {
+  display: grid;
+  grid-template-columns: 180px 1fr;
 
-  grid-template-rdws: 80px 1fx 50xp;
+  grid-template-rows: 80px 1fr 50px;
 
-height: 1vh }
+  height: 100vh;
+}
 
-.top-superior {grid: 1/3
-               background: lightblue;
-               color: black;
-               display: flex;
-               justify-content: left;
-               align-items: left;
+.top-superior {
+  grid-column: 1 / 3;
+  background: lightblue;
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
