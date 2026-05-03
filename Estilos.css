@@ -32,6 +32,11 @@
   grid-column: 2 / 3;
   grid-row: 2 / 3;
   background-color: #c0e0f0;
+  
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
 }
 
 .top-interior {
