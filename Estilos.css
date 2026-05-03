@@ -1,51 +1,39 @@
-body {
-    background-color: #0b0e14;
-    color: #e0e080;
-    font-family: monospace;
-    margin: 0;
-    padding: 10px;
-}
-
 #layout-principal {
-    display: grid;
-    grid-template-columns: 1fr 200px;
-    grid-template-rows: 60px 60px 120px 120px 60px;
-    gap: 15px;
-    height: calc(100vh - 20px);
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: 60px 1fr 60px;
+  height: 98vh;
+  gap: 10px;
+  padding: 10px;
+  background-color: white;
 }
 
 .bloque {
-    background-color: #1c1f26;
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #2d3139;
-    font-size: 1.2rem;
+  background-color: #a0c8ff;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  box-shadow: 2px 2px 0px #888;
 }
 
-
-.top-superior { 
-    grid-column: 1 / 3;
+.top-superior {
+  grid-column: 1 / 3;
 }
 
-.top-nav { 
-    grid-column: 1 / 3;
+.top-izquierdo {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
 }
 
-.top-central { 
-    grid-column: 1 / 2;
+.top-central {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  background-color: #c0e0f0;
 }
 
-.top-article { 
-    grid-column: 1 / 2;
-}
-
-.top-izquierdo { 
-    grid-column: 2 / 3;
-    grid-row: 3 / 5;
-}
-
-.top-interior { 
-    grid-column: 1 / 3;
+.top-interior {
+  grid-column: 1 / 3;
 }
